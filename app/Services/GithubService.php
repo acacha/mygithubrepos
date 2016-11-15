@@ -39,8 +39,9 @@ class GithubService
         $this->guzzle = $guzzle;
     }
 
+
     /**
-     * @return static
+     * @return \Illuminate\Support\Collection
      */
     public function obtainRepos()
     {
